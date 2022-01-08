@@ -2,10 +2,11 @@ import React from "react";
 
 function Product({product}){
     return(
-    <div className="product">
+    <div className="container product">
         <ul>
             <li><img src={product.image} alt='product' width="200" height="200"/></li> 
             <li> {product.name} </li>
+            <li> Prix: {product.price}€ </li>
             <div className="ingredients">
                 <li> Ingrédients: </li>
                 <ul>
@@ -14,7 +15,7 @@ function Product({product}){
                 
             </div>
             
-            <li> Prix: {product.price}€ </li>
+            
         </ul>
 
     </div>

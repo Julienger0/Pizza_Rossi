@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
 
 function App() {
-  const[isContentDisplayed,setIsContentDisplayed]= useState(1);
+  const[isContentDisplayed,setIsContentDisplayed]= useState(3);
 
   return (
     <div className="App">

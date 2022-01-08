@@ -1,34 +1,44 @@
+
 .content{
     display: flex;
 	flex-direction: row;
-    background-color: rgba(207, 162, 11, 0.692);
-
+    
 }
 
 .head{
-    border-bottom: solid 3px black;
-    text-align: right;
+    border-bottom: solid 1px black;
+    text-align: center;
     padding: 16px;
+    background-color: white;
 }
 .sidebar{
-    color: white;
-	background-color: #c7bc1f88;
+    color: black;
+    background-color: white;
+    font-weight: 500;
     text-align: center;
 	flex-direction: column;
-    width: 300px;	
+    width: 200px;	
+    margin: 0;
 }
 .sidebarlist{
     position: fixed;
+    width: 40px;
 }
+
+
 .productlist{
     display: flex;
 	flex-wrap: wrap;    
+    background-color: #fd7d14d2
+    
 }
 
 .product{
+    font-weight: 500;
     text-align: center;
     margin:20px;
-   
+    width: 250px;
+    
 }
 .ingredients{
     display: none;
@@ -39,6 +49,34 @@
     
     display: block;
    
+}
+
+.image{
+    display: flex;
+}
+
+
+.info{
+    display: flex;
+    margin: 50px;
+    font-weight: 500;
+    background-color: #fd7d14d2
+
+    
+}
+.contact li{
+    width: 300px;
+    padding:5px;
+
+}
+.hours{
+    float: right;
+    margin-left: 50px;
+    
+}
+.hours li{
+    padding:5px;
+
 }
 
 ul{
@@ -57,3 +95,4 @@ button{
 	
 	
 }
+
