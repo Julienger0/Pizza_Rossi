@@ -1,0 +1,59 @@
+.content{
+    display: flex;
+	flex-direction: row;
+    background-color: rgba(207, 162, 11, 0.692);
+
+}
+
+.head{
+    border-bottom: solid 3px black;
+    text-align: right;
+    padding: 16px;
+}
+.sidebar{
+    color: white;
+	background-color: #c7bc1f88;
+    text-align: center;
+	flex-direction: column;
+    width: 300px;	
+}
+.sidebarlist{
+    position: fixed;
+}
+.productlist{
+    display: flex;
+	flex-wrap: wrap;    
+}
+
+.product{
+    text-align: center;
+    margin:20px;
+   
+}
+.ingredients{
+    display: none;
+    text-align: left;
+    
+}
+.product:hover .ingredients{
+    
+    display: block;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+	background: none;
+    outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+    font-size: 18px;
+	padding: 20px;
+    
+	
+	
+}
